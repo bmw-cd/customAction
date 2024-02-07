@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM node:12
 # Copies your code file from your action repository to the filesystem path `/` of the container
 
 COPY index.js /index.js
